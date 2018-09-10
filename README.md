@@ -1,33 +1,17 @@
-# Devops environment buildout
+# General IoT environment buildout
 
 ## Components
-This project will be used to build out a fully funcitoning devops environmen on top of Zerostack. The environemnt will consist of the following.
+This script will set up an environment with all of the components needed to build a general purpose IoT backend that can be used to gather sensor data from a network. The virtual infrastructure set up can be used for general purpose IoT applications.
 
-1. Cloudforms/ManageIQ
-2. OpenShift Origin / RedHat OpenShift Enterprise
-3. Gitlab
-4. Jenkins
+1. MEAN Stack IoT application and API gateway
+2. ELK Stack actionable insights
+3. Hadoop data warehouse
+4. NGINX - host SaaS app for visualization
 
 ## Architecture
 ### Overall Architecture
 ![alt text](https://github.com/Zerostack-open/zs-iot-demo/blob/master/IOT%20Demo.png "Overall")
 
-### Pipeline Architecture
+### MEAN Stack and API Gateway
 
-### Control Architecture
-
-### OpenShift Architecture
-
-## Buildout Componets
-1. Zerostack cloud platform
-2. Ansible
-3. Python 2.7
-4. Zerostack python library
-5. CentOS 7 / RHEL 7
-
-NOTE: This should work with python3 however it is untested.
-
-## Deployment
-
-## Workflows
-
+### How does ELK pull data from Hadoop warehouse
