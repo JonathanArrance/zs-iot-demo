@@ -10,7 +10,7 @@ This project will be used to build out a fully funcitoning devops environmen on 
 
 ## Architecture
 ### Overall Architecture
-![alt text](https://github.com/JonathanArrance/zsdev/blob/master/devops/DevOps%20Environment.png "Overall")
+![alt text](https://github.com/JonathanArrance/zsdev/blob/master/devops/IOT%20Demo.png "Overall")
 
 ### Pipeline Architecture
 
